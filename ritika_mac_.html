@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IEEE MTT-S | MITS-DU Gwalior</title>
+<style>
+:root{
+  --navy:#07152f; --blue:#0b5cff; --cyan:#00c6ff; --white:#f7faff;
+  --muted:#b8c5dc; --card:rgba(255,255,255,.07); --border:rgba(255,255,255,.12);
+}
+*{box-sizing:border-box;margin:0;padding:0;scroll-behavior:smooth}
+body{font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--navy);color:var(--white);line-height:1.6}
+a{text-decoration:none;color:inherit}
+nav{position:fixed;top:0;width:100%;z-index:10;background:rgba(7,21,47,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+.nav-inner{max-width:1150px;margin:auto;padding:16px 24px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:800;letter-spacing:.5px}.logo span{color:var(--cyan)}
+.nav-links{display:flex;gap:25px;font-size:14px;color:var(--muted)}
+.nav-links a:hover{color:#fff}
+.hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;padding:110px 24px 70px}
+.hero:before{content:"";position:absolute;width:520px;height:520px;background:#0b5cff;filter:blur(150px);opacity:.25;right:-120px;top:80px}
+.hero:after{content:"";position:absolute;width:400px;height:400px;background:#00c6ff;filter:blur(160px);opacity:.12;left:-150px;bottom:-100px}
+.hero-inner{max-width:1150px;width:100%;margin:auto;position:relative;z-index:1}
+.badge{display:inline-block;padding:7px 13px;border:1px solid rgba(0,198,255,.35);border-radius:30px;color:#8fe7ff;background:rgba(0,198,255,.08);font-size:13px;margin-bottom:20px}
+h1{font-size:clamp(42px,7vw,78px);line-height:1.02;max-width:850px;letter-spacing:-2px}
+h1 span{background:linear-gradient(90deg,#fff,#73ddff);-webkit-background-clip:text;color:transparent}
+.hero p{max-width:680px;color:var(--muted);font-size:18px;margin:25px 0 30px}
+.btn{display:inline-block;padding:13px 21px;border-radius:9px;background:linear-gradient(135deg,var(--blue),var(--cyan));font-weight:700;margin-right:10px;box-shadow:0 10px 30px rgba(0,92,255,.25)}
+.btn.secondary{background:transparent;border:1px solid var(--border);box-shadow:none}
+section{padding:90px 24px}
+.container{max-width:1150px;margin:auto}
+.eyebrow{color:#65dcff;text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:800;margin-bottom:10px}
+h2{font-size:38px;margin-bottom:15px}
+.section-intro{color:var(--muted);max-width:720px;margin-bottom:40px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--card);border:1px solid var(--border);padding:26px;border-radius:16px;transition:.25s}
+.card:hover{transform:translateY(-5px);border-color:rgba(0,198,255,.35)}
+.icon{font-size:28px;margin-bottom:15px}.card h3{margin-bottom:8px}.card p{color:var(--muted);font-size:14px}
+.event{display:grid;grid-template-columns:1.25fr .75fr;gap:25px;background:linear-gradient(135deg,rgba(11,92,255,.18),rgba(0,198,255,.06));border:1px solid rgba(0,198,255,.2);padding:34px;border-radius:22px}
+.event-info h3{font-size:30px;margin:8px 0}.event-info p{color:var(--muted);margin-bottom:20px}
+.details{display:grid;gap:12px}.detail{background:rgba(0,0,0,.18);padding:15px;border-radius:10px;border:1px solid var(--border)}.detail b{display:block;color:#8fe7ff;font-size:12px;text-transform:uppercase}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:stretch}
+.contact-box{padding:32px;border-radius:18px;background:var(--card);border:1px solid var(--border)}
+.contact-box p{color:var(--muted);margin:8px 0 20px}
+footer{padding:28px 24px;border-top:1px solid var(--border);color:#8190aa;text-align:center;font-size:13px}
+@media(max-width:800px){.nav-links{display:none}.grid{grid-template-columns:1fr}.event,.contact{grid-template-columns:1fr}h2{font-size:31px}.hero p{font-size:16px}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="logo">IEEE <span>MTT-S</span> · MITS-DU</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#event">Workshop</a>
+      <a href="#domains">Domains</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="badge">IEEE Microwave Theory & Technology Society</div>
+    <h1>Explore the world of <span>RF, Microwave & Beyond.</span></h1>
+    <p>IEEE MTT-S MITS-DU Gwalior brings students together to learn, experiment and build in the exciting fields of microwave engineering, RF systems, antennas and emerging technologies.</p>
+    <a class="btn" href="#event">Explore Workshop →</a>
+    <a class="btn secondary" href="#about">Learn More</a>
+  </div>
+</header>
+
+<section id="about">
+  <div class="container">
+    <div class="eyebrow">01 · Introduction</div>
+    <h2>About IEEE MTT-S</h2>
+    <p class="section-intro">The IEEE Microwave Theory and Technology Society (MTT-S) is a professional society focused on microwave, RF, millimeter-wave and terahertz technologies, supporting technical learning, research and professional development.</p>
+    <div class="grid">
+      <div class="card"><div class="icon">📡</div><h3>Microwave Technology</h3><p>Discover the principles and applications behind modern microwave and RF systems.</p></div>
+      <div class="card"><div class="icon">🔬</div><h3>Innovation & Research</h3><p>Encourage experimentation, technical projects and research-oriented learning.</p></div>
+      <div class="card"><div class="icon">🤝</div><h3>Community</h3><p>Connect students, researchers and professionals through technical activities and events.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="chapter">
+  <div class="container">
+    <div class="eyebrow">02 · Our Chapter</div>
+    <h2>IEEE MTT-S MITS-DU Gwalior</h2>
+    <p class="section-intro">A student-focused technical community designed to create opportunities for hands-on learning, collaboration and exposure to RF and microwave technologies.</p>
+  </div>
+</section>
+
+<section id="event">
+  <div class="container">
+    <div class="eyebrow">03 · Upcoming Event</div>
+    <div class="event">
+      <div class="event-info">
+        <div class="badge">Workshop Registration Open</div>
+        <h3>IEEE MTT-S Technical Workshop</h3>
+        <p>Join us for an interactive workshop exploring concepts, applications and practical aspects of RF and microwave technology.</p>
+        <a class="btn" href="#contact">Register Now →</a>
+      </div>
+      <div class="details">
+        <div class="detail"><b>Date</b>To be announced</div>
+        <div class="detail"><b>Venue</b>MITS-DU, Gwalior</div>
+        <div class="detail"><b>Mode</b>To be announced</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="domains">
+  <div class="container">
+    <div class="eyebrow">04 · Domains & Activities</div>
+    <h2>Learn. Build. Connect.</h2>
+    <p class="section-intro">Explore technical domains and activities that can turn classroom concepts into practical experience.</p>
+    <div class="grid">
+      <div class="card"><div class="icon">📶</div><h3>RF & Microwave</h3><p>RF circuits, microwave systems, transmission lines and high-frequency applications.</p></div>
+      <div class="card"><div class="icon">📡</div><h3>Antennas</h3><p>Learn about antenna fundamentals, design concepts and wireless communication.</p></div>
+      <div class="card"><div class="icon">⚡</div><h3>IoT & Wireless</h3><p>Explore connected systems and wireless technologies powered by RF engineering.</p></div>
+      <div class="card"><div class="icon">🧪</div><h3>Workshops</h3><p>Hands-on sessions, demonstrations and technical learning experiences.</p></div>
+      <div class="card"><div class="icon">💡</div><h3>Projects</h3><p>Collaborate on innovative technical projects and engineering ideas.</p></div>
+      <div class="card"><div class="icon">🎤</div><h3>Talks & Events</h3><p>Technical talks, expert interactions, competitions and student activities.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="eyebrow">05 · Get Involved</div>
+    <h2>Be part of the chapter.</h2>
+    <div class="contact">
+      <div class="contact-box">
+        <h3>Workshop Registration</h3>
+        <p>Ready to participate? Replace the button link below with your Google Form registration link.</p>
+        <!-- Replace # with your actual Google Form URL -->
+        <a class="btn" href="https://forms.google.com/" target="_blank" rel="noopener">Open Registration Form ↗</a>
+      </div>
+      <div class="contact-box">
+        <h3>Contact the Chapter</h3>
+        <p>Email: <strong>your-email@example.com</strong><br>MITS-DU, Gwalior, Madhya Pradesh</p>
+        <a class="btn secondary" href="mailto:your-email@example.com">Send Email</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 IEEE MTT-S MITS-DU Gwalior · Student Chapter</footer>
+
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(link=>{
+  link.addEventListener('click',e=>{
+    const target=document.querySelector(link.getAttribute('href'));
+    if(target){e.preventDefault();target.scrollIntoView({behavior:'smooth'});}
+  });
+});
+</script>
+</body>
+</html>
